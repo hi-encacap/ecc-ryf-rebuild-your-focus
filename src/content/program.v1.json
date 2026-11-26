@@ -1,0 +1,561 @@
+{
+  "version": "1.0.0",
+  "locale": "vi-VN",
+  "durationDays": 30,
+  "phases": [
+    {
+      "id": "stabilization",
+      "name": "Stabilization",
+      "title": "Ổn định thói quen",
+      "startDay": 1,
+      "endDay": 7,
+      "targets": {
+        "focusMinutes": 20,
+        "focusEasyMinutes": 15,
+        "readingMinutes": 15,
+        "readingEasyMinutes": 10,
+        "thinkFirstMinutes": 5,
+        "shortVideoBaselineRatio": 0.7
+      }
+    },
+    {
+      "id": "attention",
+      "name": "Attention Recovery",
+      "title": "Rèn khả năng tập trung",
+      "startDay": 8,
+      "endDay": 14,
+      "targets": {
+        "focusMinutes": 30,
+        "focusEasyMinutes": 25,
+        "readingMinutes": 20,
+        "readingEasyMinutes": 20,
+        "thinkFirstMinutes": 10,
+        "shortVideoBaselineRatio": 0.5
+      }
+    },
+    {
+      "id": "rebuilding",
+      "name": "Cognitive Rebuilding",
+      "title": "Rèn tư duy độc lập",
+      "startDay": 15,
+      "endDay": 21,
+      "targets": {
+        "focusMinutes": 45,
+        "focusEasyMinutes": 35,
+        "readingMinutes": 25,
+        "readingEasyMinutes": 25,
+        "thinkFirstMinutes": 15,
+        "shortVideoBaselineRatio": 0.3
+      }
+    },
+    {
+      "id": "consolidation",
+      "name": "Consolidation",
+      "title": "Củng cố thói quen",
+      "startDay": 22,
+      "endDay": 30,
+      "targets": {
+        "focusMinutes": 60,
+        "focusEasyMinutes": 45,
+        "readingMinutes": 30,
+        "readingEasyMinutes": 30,
+        "thinkFirstMinutes": 20,
+        "shortVideoBaselineRatio": 0.2
+      }
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "phaseId": "stabilization",
+      "title": "Đo baseline",
+      "why": "Có điểm xuất phát để so sánh, không tự chẩn đoán.",
+      "steps": [
+        "Xem Screen Time 7 ngày gần nhất",
+        "Nhập những số liệu biết được, để trống nếu không biết",
+        "Thử đọc hoặc làm một việc trong 15 phút, ghi số lần tự chuyển việc"
+      ],
+      "outcome": "Baseline và kết quả bài tập 15 phút",
+      "knowledgeIds": [
+        "K01"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 2,
+      "phaseId": "stabilization",
+      "title": "Thiết kế môi trường",
+      "why": "Giảm tác nhân gây xao nhãng trước khi cần dùng ý chí.",
+      "steps": [
+        "Tắt thông báo không thiết yếu",
+        "Dọn ứng dụng feed khỏi Home Screen",
+        "Thiết lập Focus Mode, giữ liên lạc cần thiết"
+      ],
+      "outcome": "Một môi trường ít gián đoạn hơn",
+      "knowledgeIds": [
+        "K03"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 3,
+      "phaseId": "stabilization",
+      "title": "Ranh giới kỹ thuật số",
+      "why": "Tạo khoảng nghỉ ở đầu và cuối ngày.",
+      "steps": [
+        "Không lướt feed 30 phút sau khi thức dậy",
+        "Không lướt feed 30 phút trước khi ngủ",
+        "Ghi lại điều khó thực hiện"
+      ],
+      "outcome": "Hai khoảng thời gian không feed",
+      "knowledgeIds": [
+        "K03"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 4,
+      "phaseId": "stabilization",
+      "title": "Single-tasking",
+      "why": "Luyện làm một việc tại một thời điểm.",
+      "steps": [
+        "Chọn một việc cụ thể",
+        "Đóng tab không liên quan",
+        "Thử hai phiên 15–20 phút, nghỉ giữa phiên"
+      ],
+      "outcome": "Hai phiên hoặc thời lượng thực tế",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 5,
+      "phaseId": "stabilization",
+      "title": "Nhận diện xung động",
+      "why": "Nhận ra lúc cầm điện thoại theo phản xạ.",
+      "steps": [
+        "Khi muốn mở feed, thử chờ 60 giây",
+        "Tự hỏi mình đang cần làm gì",
+        "Ghi lại một tác nhân thường gặp"
+      ],
+      "outcome": "Một tác nhân và cách ứng phó",
+      "knowledgeIds": [
+        "K11"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 6,
+      "phaseId": "stabilization",
+      "title": "Tiếp nhận chậm",
+      "why": "Thử tiếp nhận nội dung với chủ đích.",
+      "steps": [
+        "Chọn một bài viết hoặc video dài",
+        "Theo dõi 15 phút không đổi nội dung",
+        "Tự nói lại ý chính"
+      ],
+      "outcome": "Một bản tóm tắt ngắn",
+      "knowledgeIds": [
+        "K07"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 7,
+      "phaseId": "stabilization",
+      "title": "Review tuần 1",
+      "why": "Đánh giá môi trường và mục tiêu thực tế.",
+      "steps": [
+        "So sánh số liệu tuần với baseline, nếu có",
+        "Đi bộ không dùng feed nếu phù hợp",
+        "Chọn một thay đổi cho tuần sau"
+      ],
+      "outcome": "Weekly review 1",
+      "knowledgeIds": [
+        "K03"
+      ],
+      "reviewType": "weekly"
+    },
+    {
+      "day": 8,
+      "phaseId": "attention",
+      "title": "Deep Work",
+      "why": "Tăng thời lượng tập trung từ từ.",
+      "steps": [
+        "Chọn một nhiệm vụ rõ ràng",
+        "Thử hai phiên 25 phút, nghỉ 5 phút",
+        "Ghi thời lượng và gián đoạn thực tế"
+      ],
+      "outcome": "Hai phiên hoặc mức phù hợp",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 9,
+      "phaseId": "attention",
+      "title": "Deep Reading",
+      "why": "Tự xây dựng hiểu biết trước khi đọc tóm tắt.",
+      "steps": [
+        "Chọn tài liệu vừa sức",
+        "Đọc 20 phút không nhờ AI tóm tắt",
+        "Tạo recall card với 5 ý tham chiếu"
+      ],
+      "outcome": "Một recall card",
+      "knowledgeIds": [
+        "K07"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 10,
+      "phaseId": "attention",
+      "title": "Active Recall",
+      "why": "Luyện truy xuất thông tin từ trí nhớ.",
+      "steps": [
+        "Mở bài review của ngày 9 nhưng chưa xem đáp án",
+        "Viết lại các ý nhớ được",
+        "So sánh rồi tự chấm số ý khớp"
+      ],
+      "outcome": "Một lần recall có kết quả",
+      "knowledgeIds": [
+        "K05"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 11,
+      "phaseId": "attention",
+      "title": "Đi bộ có chủ đích",
+      "why": "Thử nghỉ ngơi không liên tục nhận thông tin.",
+      "steps": [
+        "Đi bộ khoảng 20 phút nếu an toàn",
+        "Không nghe podcast hay lướt feed",
+        "Ghi lại cảm nhận, không ép bản thân"
+      ],
+      "outcome": "Một khoảng nghỉ có chủ đích",
+      "knowledgeIds": [
+        "K11"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 12,
+      "phaseId": "attention",
+      "title": "Attention Control",
+      "why": "Nhận diện những lần tự chuyển ngữ cảnh.",
+      "steps": [
+        "Chọn một nhiệm vụ 30 phút",
+        "Đánh dấu lúc muốn chuyển tab hoặc kiểm tra tin nhắn",
+        "Phân biệt xung động với gián đoạn bắt buộc"
+      ],
+      "outcome": "Một nhật ký gián đoạn",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 13,
+      "phaseId": "attention",
+      "title": "Spaced Practice",
+      "why": "Ôn lại thay vì chỉ đọc nội dung mới.",
+      "steps": [
+        "Chọn recall card ngày 9 hoặc bài đến hạn",
+        "Nhớ lại trước khi xem nguồn",
+        "Ghi số ý khớp, xem lại phần quên"
+      ],
+      "outcome": "Một lượt ôn tập",
+      "knowledgeIds": [
+        "K06"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 14,
+      "phaseId": "attention",
+      "title": "Review tuần 2",
+      "why": "Quan sát tiến độ mà không kết luận nhân quả.",
+      "steps": [
+        "Lặp bài tập 15 phút tương đương ngày 1",
+        "Ghi số lần tự chuyển việc",
+        "Review số liệu và chọn điều chỉnh"
+      ],
+      "outcome": "Weekly review 2 và bài tập so sánh",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": "weekly"
+    },
+    {
+      "day": 15,
+      "phaseId": "rebuilding",
+      "title": "Independent Thinking",
+      "why": "Giữ quyền chủ động với vấn đề phức tạp.",
+      "steps": [
+        "Chọn một vấn đề thực tế không chứa dữ liệu mật",
+        "Viết problem, constraints, assumptions",
+        "Đề xuất phương án trước khi hỏi AI"
+      ],
+      "outcome": "Một bản phân tích độc lập",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 16,
+      "phaseId": "rebuilding",
+      "title": "Critical Thinking",
+      "why": "Đọc và kiểm tra lập luận, không chỉ tiếp nhận.",
+      "steps": [
+        "Đọc một bài phân tích",
+        "Xác định ba điểm có thể chất vấn",
+        "Viết lý do và bằng chứng cần kiểm tra"
+      ],
+      "outcome": "Ba câu phản biện",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 17,
+      "phaseId": "rebuilding",
+      "title": "Mental Model",
+      "why": "Tái hiện kiến thức bằng trí nhớ.",
+      "steps": [
+        "Chọn một hệ thống hoặc khái niệm quen thuộc",
+        "Tự vẽ sơ đồ trên giấy hoặc công cụ ngoài app",
+        "Đối chiếu nguồn, ghi lỗ hổng"
+      ],
+      "outcome": "Một sơ đồ và ghi chú",
+      "knowledgeIds": [
+        "K05"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 18,
+      "phaseId": "rebuilding",
+      "title": "Decision Making",
+      "why": "Luyện đánh giá trade-off.",
+      "steps": [
+        "Đề xuất hai phương án",
+        "So sánh security, maintainability, scalability hoặc tiêu chí phù hợp",
+        "Chọn phương án và nêu điều kiện đổi quyết định"
+      ],
+      "outcome": "Một trade-off analysis",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 19,
+      "phaseId": "rebuilding",
+      "title": "Self-explanation",
+      "why": "Phát hiện điều mình chưa hiểu.",
+      "steps": [
+        "Chọn một concept",
+        "Giải thích bằng ngôn ngữ đơn giản không nhìn nguồn",
+        "Đối chiếu và bổ sung điểm còn thiếu"
+      ],
+      "outcome": "Một lời giải thích ngắn",
+      "knowledgeIds": [
+        "K05"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 20,
+      "phaseId": "rebuilding",
+      "title": "AI Sparring",
+      "why": "Dùng AI phản biện thay vì làm hộ.",
+      "steps": [
+        "Viết solution trước",
+        "Copy nội dung không nhạy cảm sang AI nếu muốn để phản biện",
+        "Tự kiểm chứng các nhận xét, ghi thay đổi"
+      ],
+      "outcome": "Một bản phân tích đã kiểm chứng",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 21,
+      "phaseId": "rebuilding",
+      "title": "Review tuần 3",
+      "why": "Tạo output thay vì chỉ tiêu thụ.",
+      "steps": [
+        "Tự viết khoảng 300–500 từ hoặc ngắn hơn nếu cần",
+        "Không yêu cầu AI viết hộ",
+        "Review tuần và đặt một mục tiêu phù hợp"
+      ],
+      "outcome": "Weekly review 3 và bài viết",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": "weekly"
+    },
+    {
+      "day": 22,
+      "phaseId": "consolidation",
+      "title": "Cognitive Endurance",
+      "why": "Tăng độ bền tập trung nếu đã sẵn sàng.",
+      "steps": [
+        "Chọn một vấn đề khó vừa sức",
+        "Thử phiên 45 phút, hoặc giữ mức tuần trước",
+        "Ghi thời lượng thực tế và kết quả"
+      ],
+      "outcome": "Một phiên có mục tiêu",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 23,
+      "phaseId": "consolidation",
+      "title": "Long-form Reading",
+      "why": "Luyện đọc tài liệu dài và hiểu luận điểm.",
+      "steps": [
+        "Đọc sách, RFC hoặc bài dài 30 phút nếu phù hợp",
+        "Ghi 5 ý tham chiếu",
+        "Tự kiểm tra trí nhớ"
+      ],
+      "outcome": "Một recall card mới",
+      "knowledgeIds": [
+        "K07"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 24,
+      "phaseId": "consolidation",
+      "title": "Knowledge Retention",
+      "why": "Củng cố những gì đã học trước đó.",
+      "steps": [
+        "Chọn tối đa ba recall card đến hạn hoặc nội dung ngày 15, 19, 23",
+        "Nhớ lại trước khi xem",
+        "Ghi kết quả tự đánh giá"
+      ],
+      "outcome": "Các lượt review đã thực hiện",
+      "knowledgeIds": [
+        "K06"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 25,
+      "phaseId": "consolidation",
+      "title": "Creative Thinking",
+      "why": "Chuyển kiến thức thành cải tiến cụ thể.",
+      "steps": [
+        "Chọn một quy trình hay thiết kế có thể cải thiện",
+        "Viết đề xuất ngắn và trade-offs",
+        "Nêu cách kiểm chứng"
+      ],
+      "outcome": "Một proposal nhỏ",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 26,
+      "phaseId": "consolidation",
+      "title": "English Immersion",
+      "why": "Tiếp nhận nội dung dài bằng tiếng Anh theo mục tiêu cá nhân.",
+      "steps": [
+        "Đọc hoặc nghe một nội dung vừa sức 30 phút",
+        "Không bắt buộc tăng tốc",
+        "Tự tóm tắt ý chính bằng tiếng Việt hoặc tiếng Anh"
+      ],
+      "outcome": "Một bản tóm tắt tự viết",
+      "knowledgeIds": [
+        "K07"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 27,
+      "phaseId": "consolidation",
+      "title": "Digital Minimalism",
+      "why": "Thử dùng thời gian rảnh có chủ đích.",
+      "steps": [
+        "Chọn một khoảng thời gian đến nửa ngày không dùng social feed",
+        "Giữ liên lạc và công việc cần thiết",
+        "Ghi điều mình làm thay thế"
+      ],
+      "outcome": "Một khoảng nghỉ feed",
+      "knowledgeIds": [
+        "K03"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 28,
+      "phaseId": "consolidation",
+      "title": "Deep Thinking",
+      "why": "Tập hình thành lập luận không dựa ngay vào công cụ.",
+      "steps": [
+        "Chọn một câu hỏi khó",
+        "Tự phân tích khoảng 30 phút không dùng AI hoặc Internet, giảm nếu quá tải",
+        "Viết kết luận và điều chưa chắc chắn"
+      ],
+      "outcome": "Một lập luận có cấu trúc",
+      "knowledgeIds": [
+        "K08"
+      ],
+      "reviewType": null
+    },
+    {
+      "day": 29,
+      "phaseId": "consolidation",
+      "title": "Final Assessment",
+      "why": "So sánh những phép đo tương đương.",
+      "steps": [
+        "Lặp bài tập 15 phút tương đương baseline",
+        "Nếu muốn thử thêm đọc hoặc suy nghĩ 30 phút riêng biệt",
+        "Ghi kết quả và quan sát, không tự chẩn đoán"
+      ],
+      "outcome": "Kết quả đánh giá cuối kỳ",
+      "knowledgeIds": [
+        "K04"
+      ],
+      "reviewType": "assessment"
+    },
+    {
+      "day": 30,
+      "phaseId": "consolidation",
+      "title": "Habit Consolidation",
+      "why": "Giữ những hành vi phù hợp lâu dài.",
+      "steps": [
+        "Xem số liệu 7 ngày cuối và độ đầy đủ",
+        "Viết điều hiệu quả, điều không hiệu quả",
+        "Chọn 3–5 thói quen và lịch duy trì"
+      ],
+      "outcome": "Final review và kế hoạch duy trì",
+      "knowledgeIds": [
+        "K11"
+      ],
+      "reviewType": "final"
+    }
+  ],
+  "minimumDay": {
+    "focusMinutes": 10,
+    "readingMinutes": 5,
+    "gentleWalkMinutes": 10,
+    "reflectionMinutes": 2
+  },
+  "recallIntervalsDays": [
+    1,
+    3,
+    7,
+    14
+  ]
+}
